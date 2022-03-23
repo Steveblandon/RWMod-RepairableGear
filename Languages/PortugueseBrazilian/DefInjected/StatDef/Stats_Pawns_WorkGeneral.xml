@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <RG_RepairItemSuccessChance.label>Chance de sucesso do item de reparo</RG_RepairItemSuccessChance.label>
+  <RG_RepairItemSuccessChance.description>A chance de essa pessoa conseguir consertar armas e roupas.
+     \nFalhar significa perder tempo, recursos e, possivelmente, danificar ainda mais o item, mas ainda assim você ganhará experiência.
+     \n\nObservação: o valor final que você vê aqui será ainda mais ponderado em relação à qualidade, condição e nível de tecnologia do item em comparação com o de sua colônia e se você tem ou não a pesquisa para fabricar o item. Para uma melhor ideia de qual será o valor final ajustado com este fatorado, selecione o colono que deverá realizar o reparo e clique com o botão direito no item em questão.</RG_RepairItemSuccessChance.description>
+
+
+</LanguageData>

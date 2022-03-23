@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <RG_TextMote_Success>Sucesso no reparo! \n{0}% de chance</RG_TextMote_Success>
+  <RG_TextMote_PartialSuccess>Sucesso parcial de reparo! \n{0}% de chance</RG_TextMote_PartialSuccess>
+  <RG_TextMote_FailNoCost>Falha no reparo \n{0}% de chance</RG_TextMote_FailNoCost>
+  <RG_TextMote_Fail>Reparo estragou \n{0}% de chance</RG_TextMote_Fail>
+
+  <RG_RepairItem>Reparar {0}</RG_RepairItem>
+  <RG_RepairItem_NotPossible>Não é possível reparar {0}</RG_RepairItem_NotPossible>
+  <RG_RepairItem_Maintenance>Apenas manutenção</RG_RepairItem_Maintenance>
+  <RG_RepairItem_TooDamaged>Irreparavelmente danificado</RG_RepairItem_TooDamaged>
+  <RG_RepairItem_NotAssignedToWorkType>não atribuído a {0}</RG_RepairItem_NotAssignedToWorkType>
+  <RG_RepairItem_NoRepairTableFound>Sem bancada disponível</RG_RepairItem_NoRepairTableFound>
+  <RG_RepairItem_MissingMaterials>Materiais faltando</RG_RepairItem_MissingMaterials>
+  <RG_RepairItem_Chance>{0}% de chance</RG_RepairItem_Chance>
+
+  <RG_RepairItem_NoItems>Nada para consertar</RG_RepairItem_NoItems>
+  <RG_RepairItem_NoSkill>Nível de habilidade muito baixo</RG_RepairItem_NoSkill>
+
+  <RG_Messages_QualityDegraded>Devido a grandes reparos, {0} perdeu um nível de qualidade.</RG_Messages_QualityDegraded>
+
+  <RG_DifficultyEasy>Dificuldade: fácil</RG_DifficultyEasy>
+  <RG_DifficultyNormal>Dificuldade: Normal</RG_DifficultyNormal>
+  <RG_DifficultyChallenging>Dificuldade: Desafiante</RG_DifficultyChallenging>
+  <RG_Settings_TaintRemoval>Desativar remoção de manchas</RG_Settings_TaintRemoval>
+  <RG_Settings_RealisticPreIndustrialWeaponMaintenanceDisabled>Desativar manutenção de arma pré-industrial / corpo a corpo realista</RG_Settings_RealisticPreIndustrialWeaponMaintenanceDisabled>
+  <RG_Settings_RealisticPreIndustrialWeaponMaintenanceDisabled_Tooltip>se desativadas, as armas corpo-a-corpo pré-industrial e as armas neolíticas / medievais não serão mais gratuitas até que as condições caiam para menos de 75%, ficando irreparavelmente danificadas.
+   Em vez disso, essas armas serão tratadas como todos os outros itens reparáveis, exigindo materiais para reparo e ficando irraparavelmente danificadas no limite definido abaixo.</RG_Settings_RealisticPreIndustrialWeaponMaintenanceDisabled_Tooltip>
+  <RG_Settings_MinimumChance>Chance mínima de reparo para permitir por conta propria ({0}%)</RG_Settings_MinimumChance>
+  <RG_Settings_MinimumChance_Tooltip>Os colonos não repararão um item se sua chance de sucesso estiver abaixo desse valor.
+   Isso será ignorado se você forçar um trabalho de reparo por meio da opção de menu do botão direito do item.</RG_Settings_MinimumChance_Tooltip>
+  <RG_Settings_PartialSuccessRepairAmount>Ganho na condição de sucesso parcial ({0}%)</RG_Settings_PartialSuccessRepairAmount>
+  <RG_Settings_PartialSuccessRepairAmount_Tooltip>Isso adiciona um desafio extra, especialmente para itens muito danificados.
+   Recursos serão consumidos, mas o item só ganhará essa quantidade de condição. 
+  Defina como 100% para desativar esse recurso. 
+  NOTA: mesmo com este ativo, ainda há uma chance (embora menor) de que o colono restaure totalmente um item.</RG_Settings_PartialSuccessRepairAmount_Tooltip>
+  <RG_Settings_IrreparablyDamagedThreshold>Limite irreparavelmente problemático ({0}%)</RG_Settings_IrreparablyDamagedThreshold>
+  <RG_Settings_IrreparablyDamagedThreshold_Tooltip>Quando a condição de um item cai abaixo dessa porcentagem, você não poderá repará-lo.</RG_Settings_IrreparablyDamagedThreshold_Tooltip>
+  <RG_Settings_CostFreeThreshold>Limite de custo livre (apenas manutenção) ({0}%)</RG_Settings_CostFreeThreshold>
+  <RG_Settings_CostFreeThreshold_Tooltip>Se a condição de um item for igual ou superior a essa porcentagem, o reparo não custará nenhum material.</RG_Settings_CostFreeThreshold_Tooltip>
+  <RG_Settings_QualityDegradation>Degradação da qualidade ({0}%)</RG_Settings_QualityDegradation>
+  <RG_Settings_QualityDegradation_Tooltip>Quanto mais baixo for esse valor, mais reparos você poderá fazer em um item antes que ele perca um nível de qualidade. Defina como 0 para desativar este recurso.</RG_Settings_QualityDegradation_Tooltip>
+
+</LanguageData>

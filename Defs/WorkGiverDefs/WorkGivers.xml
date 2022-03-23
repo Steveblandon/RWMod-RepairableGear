@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<WorkGiverDef Name="RepairItemsBase">
+		<defName>RG_RepairItem</defName>
+		<label>repair items</label>
+		<giverClass>RepairableGear.WorkGiver_RepairItem</giverClass>
+		<workType>Smithing</workType>
+		<priorityInType>120</priorityInType>
+		<fixedBillGiverDefs>
+			<li>RG_ElectricRepairTable</li>
+      <li>RG_SimpleRepairTable</li>
+		</fixedBillGiverDefs>
+		<verb>repair item</verb>
+		<gerund>repairing item at</gerund>
+		<requiredCapacities>
+			<li>Manipulation</li>
+		</requiredCapacities>
+    <prioritizeSustains>true</prioritizeSustains>
+	</WorkGiverDef>
+
+  <WorkGiverDef ParentName="RepairItemsBase">
+    <defName>RG_RepairItem_Tailor</defName>
+    <workType>Tailoring</workType>
+  </WorkGiverDef>
+
+</Defs>

@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <RG_RepairItemSuccessChance.label>Chance de succès de la réparation</RG_RepairItemSuccessChance.label>
+  <RG_RepairItemSuccessChance.description> Montre la probabilité qu'aura le colon selectionné de réparer un objet avec succès.</RG_RepairItemSuccessChance.description>
+
+
+</LanguageData>

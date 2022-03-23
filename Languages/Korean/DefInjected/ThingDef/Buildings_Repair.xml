@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <RG_SimpleRepairTable.label>간단한 수리 작업대</RG_SimpleRepairTable.label>
+  <RG_SimpleRepairTable.description>손상된 물건을 수리하는 데 필요한 최소한의 도구를 갖춘 작업대입니다. 여기서 하는 작업은 느립니다.</RG_SimpleRepairTable.description>
+
+  <RG_ElectricRepairTable.label>전기 수리 작업대</RG_ElectricRepairTable.label>
+  <RG_ElectricRepairTable.description>손상된 물건을 수리하는 데 필요한 모든 도구를 갖춘 작업대입니다. 전기가 없으면 40%의 속도로 작동합니다.</RG_ElectricRepairTable.description>
+
+
+</LanguageData>

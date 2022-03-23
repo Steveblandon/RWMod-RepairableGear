@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <RG_TextMote_Success>수리 성공!\n{0}% 확률</RG_TextMote_Success>
+  <RG_TextMote_PartialSuccess>부분적 수리 성공!\n{0}% 확률</RG_TextMote_PartialSuccess>
+  <RG_TextMote_FailNoCost>수리 실패\n{0}% 확률</RG_TextMote_FailNoCost>
+  <RG_TextMote_Fail>수리 망침\n{0}% 확률</RG_TextMote_Fail>
+
+  <RG_RepairItem>{0} 수리</RG_RepairItem>
+  <RG_RepairItem_NotPossible>{0} 수리 불가능</RG_RepairItem_NotPossible>
+  <RG_RepairItem_Maintenance>유지보수만</RG_RepairItem_Maintenance>
+  <RG_RepairItem_TooDamaged>너무 손상됨</RG_RepairItem_TooDamaged>
+  <RG_RepairItem_NotAssignedToWorkType>{0}에 할당되지 않음</RG_RepairItem_NotAssignedToWorkType>
+  <RG_RepairItem_NoRepairTableFound>작업대 없음</RG_RepairItem_NoRepairTableFound>
+  <RG_RepairItem_MissingMaterials>재료 없음</RG_RepairItem_MissingMaterials>
+  <RG_RepairItem_Chance>{0}% 확률</RG_RepairItem_Chance>
+
+  <RG_RepairItem_NoItems>수리할 물건 없음</RG_RepairItem_NoItems>
+  <RG_RepairItem_NoSkill>기술 수준이 너무 낮음</RG_RepairItem_NoSkill>
+
+  <RG_Messages_QualityDegraded>여러 번 수리한 끝에 {0}의 등급이 낮아졌습니다.</RG_Messages_QualityDegraded>
+
+  <RG_DifficultyEasy>난이도: 쉬움</RG_DifficultyEasy>
+  <RG_DifficultyNormal>난이도: 보통</RG_DifficultyNormal>
+  <RG_DifficultyChallenging>난이도: 어려움</RG_DifficultyChallenging>
+  <RG_Settings_TaintRemoval>유품 제거 비활성화</RG_Settings_TaintRemoval>
+  <RG_Settings_RealisticPreIndustrialWeaponMaintenanceDisabled>사실적인 산업 시대 이전/근접 무기 유지보수 비활성화</RG_Settings_RealisticPreIndustrialWeaponMaintenanceDisabled>
+  <RG_Settings_RealisticPreIndustrialWeaponMaintenanceDisabled_Tooltip>비활성화한다면, 우주 시대 이전 근접 무기와 석기 시대/중세 무기는 내구도가 75% 미만으로 떨어져 수리할 수 없을 만큼 망가지기 전까지 비용 없이 할 수 없습니다. 
+  대신, 이 무기들을 다른 수리 가능한 물건처럼 취급하여, 수리에 재료가 필요하고 아래에서 설정한 임계값 미만이 되면 수리 불가능하게 고장납니다.</RG_Settings_RealisticPreIndustrialWeaponMaintenanceDisabled_Tooltip>
+  <RG_Settings_MinimumChance>계획서에서 허용할 최소 수리 확률 ({0}%)</RG_Settings_MinimumChance>
+  <RG_Settings_MinimumChance_Tooltip>만일 이 값보다 성공할 확률이 낮다면 폰들이 물건을 수리하지 않을 것입니다.
+  오른쪽 클릭으로 수리를 강제한다면 이 값을 무시합니다.</RG_Settings_MinimumChance_Tooltip>
+  <RG_Settings_PartialSuccessRepairAmount>부분적 성공 시 회복할 내구도 ({0}%)</RG_Settings_PartialSuccessRepairAmount>
+  <RG_Settings_PartialSuccessRepairAmount_Tooltip>특히 많이 망가진 물건에 대해 어려움을 더합니다.
+  자원은 소비하지만, 물건의 내구도은 이만큼만 회복됩니다.
+  이 기능을 없애려면 100%로 설정하십시오.
+  참고: 이것을 활성화해도, 물건의 내구도를 완전히 회복시킬 확률이 (더 낮기는 하지만) 있습니다.</RG_Settings_PartialSuccessRepairAmount_Tooltip>
+  <RG_Settings_IrreparablyDamagedThreshold>수리 불능 임계치 ({0}%)</RG_Settings_IrreparablyDamagedThreshold>
+  <RG_Settings_IrreparablyDamagedThreshold_Tooltip>물건의 내구도가 이 비율 아래로 내려간다면 수리할 수 없습니다.</RG_Settings_IrreparablyDamagedThreshold_Tooltip>
+  <RG_Settings_CostFreeThreshold>비용 없는 (유지보수만) 임계치 ({0}%)</RG_Settings_CostFreeThreshold>
+  <RG_Settings_CostFreeThreshold_Tooltip>물건의 내구도가 이 비율 이상이라면, 재료를 소비하지 않고 수리합니다.</RG_Settings_CostFreeThreshold_Tooltip>
+  <RG_Settings_QualityDegradation>품질 저하 ({0}%)</RG_Settings_QualityDegradation>
+  <RG_Settings_QualityDegradation_Tooltip>이 값이 낮을수록 품질이 저하되기 전에 같은 물건을 더 많이 수리할 수 있습니다. 비활성화하려면 0으로 설정하세요.</RG_Settings_QualityDegradation_Tooltip>
+
+</LanguageData>

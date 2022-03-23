@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <RG_SimpleRepairTable.label>bancada de reparo simples</RG_SimpleRepairTable.label>
+  <RG_SimpleRepairTable.description>Uma bancada de trabalho equipada com o mínimo de ferramentas necessárias para reparar itens danificados. O trabalho nesta bancada é lento.</RG_SimpleRepairTable.description>
+
+  <RG_ElectricRepairTable.label>bancada de reparo elétrica</RG_ElectricRepairTable.label>
+  <RG_ElectricRepairTable.description>Uma bancada de trabalho equipada com todas as ferramentas necessárias para reparar itens danificados. Pode funcionar sem eletricidade a 40% da velocidade normal.</RG_ElectricRepairTable.description>
+
+
+</LanguageData>

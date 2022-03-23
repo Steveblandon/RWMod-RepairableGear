@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <RG_RepairItemSuccessChance.label>수리 성공률</RG_RepairItemSuccessChance.label>
+  <RG_RepairItemSuccessChance.description>무기나 의복을 성공적으로 수리할 확률입니다.
+    \n실패한다면 시간과 자원을 낭비하고 물건을 더 손상시킬 수도 있겠지만, 그래도 경험치는 얻을 것입니다.
+    \n\n참고: 여기 표시된 최종 값은 물건의 질, 상태, 정착지와 비교했을 때의 기술 수준, 물건을 만들 수 있는 연구를 했는지에 따라 더 내려갈 것입니다. 이것들을 감안해 조절된 최종 값을 알고 싶다면, 수리를 진행할 폰을 선택하고 해당 아이템을 오른쪽 클릭하십시오.</RG_RepairItemSuccessChance.description>
+
+
+</LanguageData>

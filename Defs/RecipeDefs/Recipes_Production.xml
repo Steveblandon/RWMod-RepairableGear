@@ -1,0 +1,187 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<RecipeDef Name="RG_RepairItemBase" Abstract="true">
+		<jobString>repairing item</jobString>
+		<effectWorking>Sculpt</effectWorking>
+		<soundWorking>Recipe_Machining</soundWorking>
+		<allowMixingIngredients>false</allowMixingIngredients>
+		<workAmount>8000</workAmount>
+		<targetCountAdjustment>5</targetCountAdjustment>
+		<workSkill>Crafting</workSkill>
+	</RecipeDef>
+
+  <RecipeDef Name="RG_RepairItemGenericBase" ParentName="RG_RepairItemBase">
+    <defName>RG_RepairItemGeneric</defName>
+  </RecipeDef>
+
+  <RecipeDef Name="RG_RepairItemAtBenchBase" ParentName="RG_RepairItemGenericBase"  Abstract="true">
+    <products />
+    <recipeUsers>
+      <li>RG_ElectricRepairTable</li>
+      <li>RG_SimpleRepairTable</li>
+    </recipeUsers>
+  </RecipeDef>
+
+  	<RecipeDef ParentName="RG_RepairItemAtBenchBase">
+		<defName>RG_RepairItem_Weapon</defName>
+		<label>repair weapon</label>
+		<description>Repair weapon at a repair bench.</description>
+		<jobString>repairing weapon</jobString>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>WeaponsMelee</li>
+						<li>WeaponsRanged</li>
+					</categories>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>WeaponsMelee</li>
+				<li>WeaponsRanged</li>
+			</categories>
+			<disallowedCategories>
+				<li>Grenades</li>
+			</disallowedCategories>
+			<disallowedThingDefs>
+				<li>MeleeWeapon_Club</li>
+        <li>Gun_TripleRocket</li>
+        <li>Gun_DoomsdayRocket</li>
+			</disallowedThingDefs>
+		</fixedIngredientFilter>
+	</RecipeDef>
+
+  <RecipeDef ParentName="RG_RepairItemAtBenchBase">
+    <defName>RG_RepairItem_WeaponMelee</defName>
+    <label>repair melee weapon</label>
+    <description>Repair melee weapon at a repair bench.</description>
+    <jobString>repairing melee weapon</jobString>
+    <ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>WeaponsMelee</li>
+          </categories>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <categories>
+        <li>WeaponsMelee</li>
+      </categories>
+      <disallowedThingDefs>
+        <li>MeleeWeapon_Club</li>
+      </disallowedThingDefs>
+    </fixedIngredientFilter>
+  </RecipeDef>
+
+  <RecipeDef ParentName="RG_RepairItemAtBenchBase">
+    <defName>RG_RepairItem_WeaponRanged</defName>
+    <label>repair ranged weapon</label>
+    <description>Repair ranged weapon at a repair bench.</description>
+    <jobString>repairing ranged weapon</jobString>
+    <ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>WeaponsRanged</li>
+          </categories>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <categories>
+        <li>WeaponsRanged</li>
+      </categories>
+      <disallowedCategories>
+        <li>Grenades</li>
+      </disallowedCategories>
+      <disallowedThingDefs>
+        <li>Gun_TripleRocket</li>
+        <li>Gun_DoomsdayRocket</li>
+      </disallowedThingDefs>
+    </fixedIngredientFilter>
+  </RecipeDef>
+
+	<RecipeDef ParentName="RG_RepairItemAtBenchBase">
+		<defName>RG_RepairItem_Apparel</defName>
+		<label>repair apparel</label>
+		<description>Repair apparel at a repair bench.</description>
+		<jobString>repairing apparel</jobString>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Apparel</li>
+					</categories>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>Apparel</li>
+			</categories>
+			<disallowedCategories>
+				<li>ApparelUtility</li>
+			</disallowedCategories>
+		</fixedIngredientFilter>
+	</RecipeDef>
+
+  <RecipeDef ParentName="RG_RepairItemAtBenchBase">
+    <defName>RG_RepairItem_ApparelArmor</defName>
+    <label>repair armor</label>
+    <description>Repair armor at a repair bench.</description>
+    <jobString>repairing armor</jobString>
+    <ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>ApparelArmor</li>
+          </categories>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <categories>
+        <li>ApparelArmor</li>
+      </categories>
+    </fixedIngredientFilter>
+  </RecipeDef>
+
+  <RecipeDef ParentName="RG_RepairItemAtBenchBase">
+    <defName>RG_RepairItem_Any</defName>
+    <label>repair any equipment</label>
+    <description>Repair any equipment at a repair bench.</description>
+    <jobString>repairing equipment</jobString>
+    <ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>Apparel</li>
+            <li>Weapons</li>
+          </categories>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <categories>
+        <li>Apparel</li>
+        <li>Weapons</li>
+      </categories>
+      <disallowedCategories>
+        <li>ApparelUtility</li>
+        <li>Grenades</li>
+      </disallowedCategories>
+    </fixedIngredientFilter>
+  </RecipeDef>
+
+</Defs>

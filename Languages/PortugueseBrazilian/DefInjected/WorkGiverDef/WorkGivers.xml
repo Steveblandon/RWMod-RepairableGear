@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <RG_RepairItem.label>reparar itens</RG_RepairItem.label>
+  <RG_RepairItem.verb>reparar item</RG_RepairItem.verb>
+  <RG_RepairItem.gerund>reparando item em</RG_RepairItem.gerund>
+
+  <RG_RepairItem_Tailor.label>reparar itens</RG_RepairItem_Tailor.label>
+  <RG_RepairItem_Tailor.verb>reparar item</RG_RepairItem_Tailor.verb>
+  <RG_RepairItem_Tailor.gerund>reparando item em</RG_RepairItem_Tailor.gerund>
+
+
+</LanguageData>

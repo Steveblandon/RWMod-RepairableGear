@@ -1,0 +1,13 @@
+\bin\
+\obj\
+\Properties\
+\Assemblies\
+\Source\
+.vs
+.csproj.user
+.userosscache
+.dll
+.sln
+.csproj
+.txt
+.gitignore

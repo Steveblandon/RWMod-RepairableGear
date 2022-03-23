@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <RG_RepairItem.label>물건 수리</RG_RepairItem.label>
+  <RG_RepairItem.verb>물건 수리</RG_RepairItem.verb>
+  <RG_RepairItem.gerund>물건 수리 중:</RG_RepairItem.gerund>
+
+  <RG_RepairItem_Tailor.label>물건 수리</RG_RepairItem_Tailor.label>
+  <RG_RepairItem_Tailor.verb>물건 수리</RG_RepairItem_Tailor.verb>
+  <RG_RepairItem_Tailor.gerund>물건 수리 중:</RG_RepairItem_Tailor.gerund>
+
+
+</LanguageData>

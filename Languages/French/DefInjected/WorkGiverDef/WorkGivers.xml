@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <RG_RepairItem.label>réparer un équipement</RG_RepairItem.label>
+  <RG_RepairItem.verb>réparer un équipement</RG_RepairItem.verb>
+  <RG_RepairItem.gerund>en train de réparer un équipement</RG_RepairItem.gerund>
+
+  <RG_RepairItem_Tailor.label>réparer un équipement</RG_RepairItem_Tailor.label>
+  <RG_RepairItem_Tailor.verb>réparer un équipement</RG_RepairItem_Tailor.verb>
+  <RG_RepairItem_Tailor.gerund>en train de réparer un équipement</RG_RepairItem_Tailor.gerund>
+
+
+</LanguageData>

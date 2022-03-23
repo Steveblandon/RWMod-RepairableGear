@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <RG_RepairItemGeneric.jobString>reparando item</RG_RepairItemGeneric.jobString>
+
+  <RG_RepairItem_Weapon.label>reparar armas</RG_RepairItem_Weapon.label>
+  <RG_RepairItem_Weapon.description>Repare armas em uma bancada de reparos.</RG_RepairItem_Weapon.description>
+  <RG_RepairItem_Weapon.jobString>Reparando arma</RG_RepairItem_Weapon.jobString>
+
+  <RG_RepairItem_WeaponMelee.label>reparar armas corpo a corpo</RG_RepairItem_WeaponMelee.label>
+  <RG_RepairItem_WeaponMelee.description>Repare arma corpo a corpo em uma bancada de reparos.</RG_RepairItem_WeaponMelee.description>
+  <RG_RepairItem_WeaponMelee.jobString>Reparando arma corpo a corpo</RG_RepairItem_WeaponMelee.jobString>
+
+  <RG_RepairItem_WeaponRanged.label>reparar armas de longo alcance</RG_RepairItem_WeaponRanged.label>
+  <RG_RepairItem_WeaponRanged.description>Repare arma de longo alcance em uma bancada de reparos.</RG_RepairItem_WeaponRanged.description>
+  <RG_RepairItem_WeaponRanged.jobString>reparando arma de longo alcance</RG_RepairItem_WeaponRanged.jobString>
+
+  <RG_RepairItem_Apparel.label>reparar roupas</RG_RepairItem_Apparel.label>
+  <RG_RepairItem_Apparel.description>Repare o vestuário em uma bancada de reparos.</RG_RepairItem_Apparel.description>
+  <RG_RepairItem_Apparel.jobString>reparando roupa</RG_RepairItem_Apparel.jobString>
+
+  <RG_RepairItem_ApparelArmor.label>reparar armadursa</RG_RepairItem_ApparelArmor.label>
+  <RG_RepairItem_ApparelArmor.description>Repare a armadura em um banco de reparos.</RG_RepairItem_ApparelArmor.description>
+  <RG_RepairItem_ApparelArmor.jobString>reparando armadura</RG_RepairItem_ApparelArmor.jobString>
+
+  <RG_RepairItem_Any.label>reparar qualquer equipamento</RG_RepairItem_Any.label>
+  <RG_RepairItem_Any.description>Repare qualquer equipamento em uma bancada de reparo.</RG_RepairItem_Any.description>
+  <RG_RepairItem_Any.jobString>reparando equipamento</RG_RepairItem_Any.jobString>
+
+
+</LanguageData>

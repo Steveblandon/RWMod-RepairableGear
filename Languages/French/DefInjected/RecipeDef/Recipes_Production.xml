@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <RG_RepairItemGeneric.jobString>en train de réparer</RG_RepairItemGeneric.jobString>
+
+  <RG_RepairItem_Weapon.label>réparer tout type d'arme</RG_RepairItem_Weapon.label>
+  <RG_RepairItem_Weapon.description>Répare une arme sur la table de réparation.</RG_RepairItem_Weapon.description>
+  <RG_RepairItem_Weapon.jobString>En train de réparer une arme</RG_RepairItem_Weapon.jobString>
+
+  <RG_RepairItem_WeaponMelee.label>réparer une arme de mélée</RG_RepairItem_WeaponMelee.label>
+  <RG_RepairItem_WeaponMelee.description>Répare une arme de mélée sur la table de réparation.</RG_RepairItem_WeaponMelee.description>
+  <RG_RepairItem_WeaponMelee.jobString>En train de réparer une arme de mélée</RG_RepairItem_WeaponMelee.jobString>
+
+  <RG_RepairItem_WeaponRanged.label>réparer une arme à distance</RG_RepairItem_WeaponRanged.label>
+  <RG_RepairItem_WeaponRanged.description>Répare une arme à distance sur la table de réparation.</RG_RepairItem_WeaponRanged.description>
+  <RG_RepairItem_WeaponRanged.jobString>En train de réparer une arme à distance</RG_RepairItem_WeaponRanged.jobString>
+
+  <RG_RepairItem_Apparel.label>réparer un vêtement</RG_RepairItem_Apparel.label>
+  <RG_RepairItem_Apparel.description>Répare un vêtement sur la table de réparation.</RG_RepairItem_Apparel.description>
+  <RG_RepairItem_Apparel.jobString>en train de réparer un vêtement</RG_RepairItem_Apparel.jobString>
+
+  <RG_RepairItem_ApparelArmor.label>réparer une armure</RG_RepairItem_ApparelArmor.label>
+  <RG_RepairItem_ApparelArmor.description>Répare une armure sur la table de réparation.</RG_RepairItem_ApparelArmor.description>
+  <RG_RepairItem_ApparelArmor.jobString>En train de réparer une armure</RG_RepairItem_ApparelArmor.jobString>
+
+  <RG_RepairItem_Any.label>réparer tout type d'équipement</RG_RepairItem_Any.label>
+  <RG_RepairItem_Any.description>Répare un équipement sur la table de réparation.</RG_RepairItem_Any.description>
+  <RG_RepairItem_Any.jobString>en train de réparer un équipement</RG_RepairItem_Any.jobString>
+
+
+</LanguageData>

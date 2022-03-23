@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <RG_TextMote_Success>Réparation réussie! \n{0}% de chance</RG_TextMote_Success>
+  <RG_TextMote_PartialSuccess>Réparation partiellement réussie! \n{0}% de chance</RG_TextMote_PartialSuccess>
+  <RG_TextMote_FailNoCost>Echec de la réparation \n{0}% de chance</RG_TextMote_FailNoCost>
+  <RG_TextMote_Fail>Echec critique de la réparation \n{0}% de chance</RG_TextMote_Fail>
+
+  <RG_RepairItem>Réparer {0}</RG_RepairItem>
+  <RG_RepairItem_NotPossible>Impossible de réparer {0}</RG_RepairItem_NotPossible>
+  <RG_RepairItem_Maintenance>Entretien</RG_RepairItem_Maintenance>
+  <RG_RepairItem_TooDamaged>Cet équipement est trop endommagé</RG_RepairItem_TooDamaged>
+  <RG_RepairItem_NotAssignedToWorkType>N'est pas assigné à {0}</RG_RepairItem_NotAssignedToWorkType>
+  <RG_RepairItem_NoRepairTableFound>Aucune table disponible</RG_RepairItem_NoRepairTableFound>
+  <RG_RepairItem_MissingMaterials>Il manque des matériaux</RG_RepairItem_MissingMaterials>
+  <RG_RepairItem_Chance>{0}% de chance</RG_RepairItem_Chance>
+
+  <RG_RepairItem_NoItems>Aucun équipement à réparer</RG_RepairItem_NoItems>
+  <RG_RepairItem_NoSkill>Niveau de compétence trop bas</RG_RepairItem_NoSkill>
+
+  <RG_Messages_QualityDegraded>Suite à de trop lourdes réparations, {0} a perdu un niveau de qualité.</RG_Messages_QualityDegraded>
+
+  <RG_DifficultyEasy>Difficulté: Facile</RG_DifficultyEasy>
+  <RG_DifficultyNormal>Difficulté: Normale</RG_DifficultyNormal>
+  <RG_DifficultyChallenging>Difficulté: Difficile</RG_DifficultyChallenging>
+  <RG_Settings_TaintRemoval>Désactiver la fonction qui retire le debuff "porté par un mort"</RG_Settings_TaintRemoval>
+  <RG_Settings_RealisticPreIndustrialWeaponMaintenanceDisabled>Désactiver l'entretien réaliste des armes de mélée pré-industrielles</RG_Settings_RealisticPreIndustrialWeaponMaintenanceDisabled>
+  <RG_Settings_RealisticPreIndustrialWeaponMaintenanceDisabled_Tooltip>si désactivé, la réparation des armes de mélée pré-spatiales et des armes Néolithiques/Médiévales ne sera plus sans coûts jusqu'à un état sous les 75%, devenant ensuite irrémédiablement endommagées.
+  A la place, ces armes seront considérées comme les autres équipements réparables, demandant des matériaux pour être réparées et devenant irrémédiablement endommagées en dessous du seuil défini ci-dessous.</RG_Settings_RealisticPreIndustrialWeaponMaintenanceDisabled_Tooltip>
+  <RG_Settings_MinimumChance>Chance minimale de réparation ({0}%)</RG_Settings_MinimumChance>
+  <RG_Settings_MinimumChance_Tooltip>Les colons ne répareront pas un équipement si leur chance de succès se situe en-dessous cette valeur. Ce paramètre sera ignoré si vous forcez la réparation via un clic-droit sur l'objet.</RG_Settings_MinimumChance_Tooltip>
+  <RG_Settings_RepairChance>Multiplicateur de chance de réparer ({0}x)</RG_Settings_RepairChance>
+  <RG_Settings_RepairChance_Tooltip>L'état de l'objet, le niveau technologique, les recherches débloquées, le niveau de compétence Artisanat, Manipulation, et la Vue sont pris en considération dans le calcul des chances de succès d'une réparation. 
+  Si vous trouvez que de bonnes chances de succès sont trop difficiles à atteindre, augmentez ceci. Si vous êtes masochiste, vous pouvez aussi le baisser.</RG_Settings_RepairChance_Tooltip>
+  <RG_Settings_PartialSuccessRepairAmount>Amélioration de l'état pour un succès partiel ({0}%)</RG_Settings_PartialSuccessRepairAmount>
+  <RG_Settings_PartialSuccessRepairAmount_Tooltip>Rajoute un peu de difficulté, en particulier pour les objets trés endommagés. Les ressources seront utilisées, mais l'objet ne sera réparé que de cette valeur.
+  Mettre 100% pour annuler cette option. 
+  NOTE: même si ceci est actif, il y a toujours une chance (bien que plus faible) pour que le colon répare totalement l'objet.</RG_Settings_PartialSuccessRepairAmount_Tooltip>
+  <RG_Settings_IrreparablyDamagedThreshold>Dégâts irrémédiables ({0}%)</RG_Settings_IrreparablyDamagedThreshold>
+  <RG_Settings_IrreparablyDamagedThreshold_Tooltip>Quand l'état d'un objet tombe sous cette valeur, il vous sera impossible de le réparer.</RG_Settings_IrreparablyDamagedThreshold_Tooltip>
+  <RG_Settings_CostFreeThreshold>Valeur minimale pour une réparation sans coûts (entretien seulement) ({0}%)</RG_Settings_CostFreeThreshold>
+  <RG_Settings_CostFreeThreshold_Tooltip>Si l'état d'un objet est supérieur ou égal à ce pourcentage, la réparation ne coûtera rien.</RG_Settings_CostFreeThreshold_Tooltip>
+  <RG_Settings_QualityDegradation_Master>Dégradation de la qualité [Chef d'oeuvre ou meilleur] ({0}%)</RG_Settings_QualityDegradation_Master>
+  <RG_Settings_QualityDegradation>Dégradation de la qualité [Excellent ou pire] ({0}%)</RG_Settings_QualityDegradation>
+  <RG_Settings_QualityDegradation_Tooltip>Plus cette valeur est basse, plus vous pourrez effectuer de réparations sur un objet avant qu'il ne baisse en niveau de qualité. Réglez sur 0 pour désactiver cette option.</RG_Settings_QualityDegradation_Tooltip>
+
+</LanguageData>

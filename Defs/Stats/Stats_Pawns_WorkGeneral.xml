@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <StatDef>
+    <defName>RG_RepairItemSuccessChance</defName>
+    <label>Repair item success chance</label>
+    <description>The chance that this person will succeed in repairing weapons and apparel.
+    \nFailing means wasting time, resources, and possibly further damaging the item, but experience will be gained nonetheless.
+    \n\nNote: the final value you see here will be further weighted against the item's quality, condition, tech level compared to your colony's, and whether or not you have the research to craft the item. For a better idea of what the adjusted final value will be with this factored in, select pawn that should carry out the repair and right click the item in question.</description>
+    <category>PawnWork</category>
+    <defaultBaseValue>1</defaultBaseValue>
+    <minValue>0</minValue>
+    <maxValue>1.6</maxValue>
+    <toStringStyle>PercentZero</toStringStyle>
+    <skillNeedFactors>
+      <li Class="SkillNeed_BaseBonus">
+        <skill>Crafting</skill>
+        <baseValue>0</baseValue>
+        <bonusPerLevel>0.08</bonusPerLevel>
+      </li>
+    </skillNeedFactors>
+    <capacityFactors>
+      <li>
+        <capacity>Manipulation</capacity>
+        <weight>0.75</weight>
+        <max>1.2</max>
+      </li>
+      <li>
+        <capacity>Sight</capacity>
+        <weight>0.5</weight>
+        <max>1.1</max>
+      </li>
+    </capacityFactors>
+    <scenarioRandomizable>true</scenarioRandomizable>
+    <displayPriorityInCategory>4560</displayPriorityInCategory>
+  </StatDef>
+
+</Defs>

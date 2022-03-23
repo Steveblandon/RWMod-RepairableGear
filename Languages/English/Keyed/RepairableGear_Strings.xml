@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+  
+	<RG_TextMote_Success>Repair Success!\n{0}% chance</RG_TextMote_Success>
+  <RG_TextMote_PartialSuccess>Repair Partial Success!\n{0}% chance</RG_TextMote_PartialSuccess>
+	<RG_TextMote_FailNoCost>Repair Failed\n{0}% chance</RG_TextMote_FailNoCost>
+	<RG_TextMote_Fail>Repair Botched\n{0}% chance</RG_TextMote_Fail>
+
+	<RG_RepairItem>Repair {0}</RG_RepairItem>
+	<RG_RepairItem_NotPossible>Cannot repair {0}</RG_RepairItem_NotPossible>
+	<RG_RepairItem_Maintenance>Maintenance only</RG_RepairItem_Maintenance>
+	<RG_RepairItem_TooDamaged>Irreparably damaged</RG_RepairItem_TooDamaged>
+	<RG_RepairItem_NotAssignedToWorkType>not assigned to {0}</RG_RepairItem_NotAssignedToWorkType>
+	<RG_RepairItem_NoRepairTableFound>No workbench available</RG_RepairItem_NoRepairTableFound>
+	<RG_RepairItem_MissingMaterials>Missing materials</RG_RepairItem_MissingMaterials>
+  <RG_RepairItem_Chance>{0}% chance</RG_RepairItem_Chance>
+
+  <RG_RepairItem_NoItems>Nothing to repair</RG_RepairItem_NoItems>
+  <RG_RepairItem_NoSkill>Skill level too low</RG_RepairItem_NoSkill>
+
+  <RG_Messages_QualityDegraded>Due to extensive repairs {0} has lost a level of quality.</RG_Messages_QualityDegraded>
+  
+  <RG_DifficultyEasy>Difficulty: Easy</RG_DifficultyEasy>
+  <RG_DifficultyNormal>Difficulty: Normal</RG_DifficultyNormal>
+  <RG_DifficultyChallenging>Difficulty: Challenging</RG_DifficultyChallenging>
+  <RG_Settings_TaintRemoval>Disable taint removal</RG_Settings_TaintRemoval>
+  <RG_Settings_RealisticPreIndustrialWeaponMaintenanceDisabled>Disable realistic pre-industrial/melee weapon maintenance</RG_Settings_RealisticPreIndustrialWeaponMaintenanceDisabled>
+  <RG_Settings_RealisticPreIndustrialWeaponMaintenanceDisabled_Tooltip>if disabled, pre-spacer melee weapons and neolithic/medieval weapons will no longer be cost-free until condition drops below 75%, becoming irreparably damaged.
+  Instead, these weapons will be treated like all other repairable items, requiring materials for repair and becoming irraparably damaged at the threshold set below.</RG_Settings_RealisticPreIndustrialWeaponMaintenanceDisabled_Tooltip>
+  <RG_Settings_MinimumChance>Minimum repair chance to allow on bills ({0}%)</RG_Settings_MinimumChance>
+  <RG_Settings_MinimumChance_Tooltip>Pawns won't repair an item if their success chance is below this value. 
+  This will be ignored if you force a repair job via the item right click menu option.</RG_Settings_MinimumChance_Tooltip>
+  <RG_Settings_RepairChance>Repair chance multiplier ({0}x)</RG_Settings_RepairChance>
+  <RG_Settings_RepairChance_Tooltip>Item condition, tech-level, unlocked research, crafting skill level, manipulation, and sight are all taken into consideration in the default calculation of the repair success chance. 
+  If you find the final repair chance too challenging use this to boost it up. You can also go lower if you're a masochist.
+  </RG_Settings_RepairChance_Tooltip>
+  <RG_Settings_PartialSuccessRepairAmount>Gain in condition for partial success ({0}%)</RG_Settings_PartialSuccessRepairAmount>
+  <RG_Settings_PartialSuccessRepairAmount_Tooltip>This adds an extra challenge, specially for badly damaged items. 
+  Resources will be consumed, but the item will only gain this much condition. 
+  Set to 100% to opt-out of this feature. 
+  NOTE: even with this active, there is still a chance (albeit lower) that the pawn will fully restore an item.</RG_Settings_PartialSuccessRepairAmount_Tooltip>
+  <RG_Settings_IrreparablyDamagedThreshold>Irreparably damaged threshold ({0}%)</RG_Settings_IrreparablyDamagedThreshold>
+  <RG_Settings_IrreparablyDamagedThreshold_Tooltip>Once an item's condition falls below this percentage, you will not be able to repair it.</RG_Settings_IrreparablyDamagedThreshold_Tooltip>
+  <RG_Settings_CostFreeThreshold>Cost Free (maintenance only) threshold ({0}%)</RG_Settings_CostFreeThreshold>
+  <RG_Settings_CostFreeThreshold_Tooltip>If an item's condition is equal to or greater than this percentage, the repair won't cost any materials.</RG_Settings_CostFreeThreshold_Tooltip>
+  <RG_Settings_QualityDegradation_Master>Quality degradation [Masterwork or better] ({0}%)</RG_Settings_QualityDegradation_Master>
+  <RG_Settings_QualityDegradation>Quality degradation [Excellent or worse] ({0}%)</RG_Settings_QualityDegradation>
+  <RG_Settings_QualityDegradation_Tooltip>The lower this value, the more repairs you will be able to do on an item before it loses a level of quality. Set to 0 to disable this feature.</RG_Settings_QualityDegradation_Tooltip>
+  
+</LanguageData>

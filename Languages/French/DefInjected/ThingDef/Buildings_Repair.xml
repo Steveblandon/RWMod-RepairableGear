@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <RG_SimpleRepairTable.label>Table de réparation basique</RG_SimpleRepairTable.label>
+  <RG_SimpleRepairTable.description>Une table de réparation basique pour réparer un équipement. Le travail sur cette table prendra du temps.</RG_SimpleRepairTable.description>
+
+  <RG_ElectricRepairTable.label>Table de réparation électrique</RG_ElectricRepairTable.label>
+  <RG_ElectricRepairTable.description>Une table de réparation avancée pour réparer un équipement. Peut fonctionner sans électricité à 40% de sa vitesse normale.</RG_ElectricRepairTable.description>
+
+
+</LanguageData>

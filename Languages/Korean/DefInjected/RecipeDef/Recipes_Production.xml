@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <RG_RepairItemGeneric.jobString>물건 수리 중</RG_RepairItemGeneric.jobString>
+
+  <RG_RepairItem_Weapon.label>무기 수리</RG_RepairItem_Weapon.label>
+  <RG_RepairItem_Weapon.description>수리 작업대에서 무기를 수리합니다.</RG_RepairItem_Weapon.description>
+  <RG_RepairItem_Weapon.jobString>무기 수리 중</RG_RepairItem_Weapon.jobString>
+
+  <RG_RepairItem_WeaponMelee.label>근접 무기 수리</RG_RepairItem_WeaponMelee.label>
+  <RG_RepairItem_WeaponMelee.description>수리 작업대에서 근접 무기를 수리합니다.</RG_RepairItem_WeaponMelee.description>
+  <RG_RepairItem_WeaponMelee.jobString>근접 무기 수리 중</RG_RepairItem_WeaponMelee.jobString>
+
+  <RG_RepairItem_WeaponRanged.label>원거리 무기 수리</RG_RepairItem_WeaponRanged.label>
+  <RG_RepairItem_WeaponRanged.description>수리 작업대에서 원거리 무기를 수리합니다.</RG_RepairItem_WeaponRanged.description>
+  <RG_RepairItem_WeaponRanged.jobString>원거리 무기 수리 중</RG_RepairItem_WeaponRanged.jobString>
+
+  <RG_RepairItem_Apparel.label>의복 수리</RG_RepairItem_Apparel.label>
+  <RG_RepairItem_Apparel.description>수리 작업대에서 의복을 수리합니다.</RG_RepairItem_Apparel.description>
+  <RG_RepairItem_Apparel.jobString>의복 수리 중</RG_RepairItem_Apparel.jobString>
+
+  <RG_RepairItem_ApparelArmor.label>갑옷 수리</RG_RepairItem_ApparelArmor.label>
+  <RG_RepairItem_ApparelArmor.description>수리 작업대에서 갑옷을 수리합니다.</RG_RepairItem_ApparelArmor.description>
+  <RG_RepairItem_ApparelArmor.jobString>갑옷 수리 중</RG_RepairItem_ApparelArmor.jobString>
+
+  <RG_RepairItem_Any.label>장비 수리</RG_RepairItem_Any.label>
+  <RG_RepairItem_Any.description>수리 작업대에서 어떤 장비든 수리합니다.</RG_RepairItem_Any.description>
+  <RG_RepairItem_Any.jobString>장비 수리 중</RG_RepairItem_Any.jobString>
+
+
+</LanguageData>

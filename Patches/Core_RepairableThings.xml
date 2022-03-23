@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Patch>
+
+	<!-- Check if <comps /> exists. If not, add it -->
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationTest">
+				<xpath>/Defs/ThingDef[
+				starts-with(@ParentName, 'Apparel')
+				or starts-with(@ParentName, 'BaseMelee')
+				or @Name="BaseHumanMakeableGun"
+				or @Name="BaseWeaponNeolithic"
+				]/comps</xpath>
+				<success>Invert</success>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/ThingDef[
+				starts-with(@ParentName, 'Apparel')
+				or starts-with(@ParentName, 'BaseMelee')
+				or @Name="BaseHumanMakeableGun"
+				or @Name="BaseWeaponNeolithic"
+				]</xpath>
+				<value>
+					<comps />
+				</value>
+			</li>
+		</operations>
+	</Operation>
+
+	<!-- Find entries and add the new comp -->
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationTest">
+				<xpath>/Defs/ThingDef[
+				starts-with(@ParentName, 'Apparel')
+				or starts-with(@ParentName, 'BaseMelee')
+				or @Name="BaseHumanMakeableGun"
+				or @Name="BaseWeaponNeolithic"
+				]/comps/li[@Class='RepairableGear.CompProperties_RepairableThing']</xpath>
+				<success>Invert</success>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/ThingDef[
+				starts-with(@ParentName, 'Apparel')
+				or starts-with(@ParentName, 'BaseMelee')
+				or @Name="BaseHumanMakeableGun"
+				or @Name="BaseWeaponNeolithic"
+				]/comps</xpath>
+				<value>
+					<li Class="RepairableGear.CompProperties_RepairableThing">
+						<WorktableDefs>
+							<li>RG_ElectricRepairTable</li>
+              <li>RG_SimpleRepairTable</li>
+						</WorktableDefs>
+						<JobDef>RG_RepairItem</JobDef>
+						<WorkTypeDef>Crafting</WorkTypeDef>
+					</li>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+
+</Patch>
+
