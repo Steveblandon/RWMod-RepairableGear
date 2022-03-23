@@ -30,9 +30,14 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
+  <PropertyGroup>
+    <GameVersion>1.3</GameVersion>
+    <GameDir>C:\Program Files (x86)\Steam\steamapps\common\RimWorld</GameDir>
+    <ModDir>$(GameDir)\Mods\Repairable Gear</ModDir>
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="Assembly-CSharp">
-      <HintPath>..\..\RimWorldWin64_Data\Managed\Assembly-CSharp.dll</HintPath>
+      <HintPath>$(GameDir)\RimWorldWin64_Data\Managed\Assembly-CSharp.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="System" />
@@ -44,11 +49,11 @@
     <Reference Include="System.Net.Http" />
     <Reference Include="System.Xml" />
     <Reference Include="UnityEngine">
-      <HintPath>..\..\RimWorldWin64_Data\Managed\UnityEngine.dll</HintPath>
+      <HintPath>$(GameDir)\RimWorldWin64_Data\Managed\UnityEngine.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="UnityEngine.CoreModule">
-      <HintPath>..\..\RimWorldWin64_Data\Managed\UnityEngine.CoreModule.dll</HintPath>
+      <HintPath>$(GameDir)\RimWorldWin64_Data\Managed\UnityEngine.CoreModule.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
@@ -84,20 +89,29 @@
       <SubType>Designer</SubType>
     </None>
     <None Include="Patches\Core_RepairableThings.xml" />
+    <None Include="README.md" />
+    <None Include="Textures\Things\Building\Production\TableRepair_east.xcf" />
+    <None Include="Textures\Things\Building\Production\TableRepair_north.xcf" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="About\About.xml" />
+    <Content Include="About\Preview.png" />
+    <Content Include="About\PublishedFileId.txt" />
     <Content Include="Defs\Stats\Stats_Pawns_WorkGeneral.xml" />
+    <Content Include="Exclusions.txt" />
+    <Content Include="Textures\Things\Building\Production\TableRepair_east.png" />
+    <Content Include="Textures\Things\Building\Production\TableRepair_north.png" />
   </ItemGroup>
-  <PropertyGroup>
-    <ModDir>..\Repairable Gear</ModDir>
-    <GameVersion>1.3</GameVersion>
-  </PropertyGroup>
   <Target Name="updateDll" AfterTargets="Build">
     <!-- ====== Build mod by copying all files to the appropriate directory in Rimworld\Mods directory ===== =-->
     <Copy SourceFiles="Assemblies\RepairableGear.dll" DestinationFolder="$(ModDir)\$(GameVersion)\Assemblies" />
+    <Exec Command="rmdir &quot;$(ModDir)\&quot; /S" />
+    <Exec Command="xcopy 1.2\* &quot;$(ModDir)\1.2\&quot; /Y /E" />
     <Exec Command="xcopy Defs\* &quot;$(ModDir)\Defs\&quot; /Y /E" />
     <Exec Command="xcopy Languages\* &quot;$(ModDir)\Languages\&quot; /Y /E" />
     <Exec Command="xcopy Patches\* &quot;$(ModDir)\Patches\&quot; /Y /E" />
+    <Exec Command="xcopy About\* &quot;$(ModDir)\About\&quot; /Y /E" />
+    <Exec Command="xcopy Textures\* &quot;$(ModDir)\Textures\&quot; /Y /E" />
   </Target>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

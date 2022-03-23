@@ -1,0 +1,9 @@
+/obj
+/bin
+/Properties
+.vs
+*.csproj.user
+*.user*
+*.dll
+info.txt
+/Tracker.txt
