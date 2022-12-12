@@ -78,7 +78,7 @@
             foreach (var bill in billGiver.BillStack)
             {
                 if ((bill.recipe.requiredGiverWorkType != null && bill.recipe.requiredGiverWorkType != def.workType) ||
-                    (Find.TickManager.TicksGame < bill.lastIngredientSearchFailTicks + ReCheckFailedBillTicksRange.RandomInRange && FloatMenuMakerMap.makingFor != pawn) ||
+                    (Find.TickManager.TicksGame < ReCheckFailedBillTicksRange.RandomInRange && FloatMenuMakerMap.makingFor != pawn) ||
                     !bill.ShouldDoNow() || !bill.PawnAllowedToStartAnew(pawn))
                     continue;
 
@@ -102,9 +102,6 @@
                         return CreateRepairJob(workbench, item, RepairCostThings, bill);
                     }
                 }
-
-                if (FloatMenuMakerMap.makingFor != pawn)
-                    bill.lastIngredientSearchFailTicks = Find.TickManager.TicksGame;
             }
 
             JobFailReason.Is("RG_RepairItem_NoItems".Translate());
