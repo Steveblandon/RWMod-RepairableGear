@@ -31,7 +31,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <GameVersion>1.4</GameVersion>
+    <GameVersion>1.5</GameVersion>
     <GameDir>C:\Program Files (x86)\Steam\steamapps\common\RimWorld</GameDir>
     <ModDir>$(GameDir)\Mods\Repairable Gear</ModDir>
   </PropertyGroup>
