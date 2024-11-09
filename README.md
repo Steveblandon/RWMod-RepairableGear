@@ -9,7 +9,7 @@ The build file expects this to be located at "C:\Program Files (x86)\Steam\steam
 
 To change this, unload the 'RepairableGear' project (not solution) and edit the project file. Look for this line
 
-<GameDir>CHANGE THIS TO YOUR RIMWORLD INSTALL</GameDir>
+\<GameDir>CHANGE THIS TO YOUR RIMWORLD INSTALL\</GameDir>
 
 
 
