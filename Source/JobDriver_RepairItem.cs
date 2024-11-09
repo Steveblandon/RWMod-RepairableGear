@@ -226,7 +226,7 @@ namespace RepairableGear
                 }
                 else if (this.job.bill.GetStoreMode() == BillStoreModeDefOf.SpecificStockpile)
                 {
-                    StoreUtility.TryFindBestBetterStoreCellForIn(repairableThing, this.pawn, this.pawn.Map, StoragePriority.Unstored, this.pawn.Faction, this.job.bill.GetStoreZone().slotGroup, out cellFound, true);
+                    StoreUtility.TryFindBestBetterStoreCellForIn(repairableThing, this.pawn, this.pawn.Map, StoragePriority.Unstored, this.pawn.Faction, this.job.bill.GetSlotGroup(), out cellFound, true);
                 }
                 else
                 {
@@ -445,7 +445,7 @@ namespace RepairableGear
             {
                 foreach (var recipe in repairableThing.def.AllRecipes)
                 {
-                    originalWorkAmount = Math.Max(originalWorkAmount, recipe.WorkAmountTotal(repairableThing.Stuff));
+                    originalWorkAmount = Math.Max(originalWorkAmount, recipe.WorkAmountTotal(repairableThing));
                 }
 
                 Utils.DebugLog($"{repairableThing.ThingID} original work amount = {originalWorkAmount}, determined by recipe");
