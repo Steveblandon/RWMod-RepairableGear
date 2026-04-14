@@ -54,7 +54,7 @@ namespace RepairableGear
                 List<Thing> ingredientThings = billGiver.IngredientStackCells.SelectMany(spot => pawn.Map.thingGrid.ThingsListAt(spot)).ToList();
                 foreach (Thing thing in ingredientThings)
                 {
-                    if (thing.Label != ((Thing)billGiver).Label)
+                    if (thing.Label != ((Thing)billGiver).Label && !(thing is Building))
                     {
                         Utils.DebugLog($"removing {thing.Label} from workbench.");
                         yield return new Toil() { initAction = () => this.job.SetTarget(TargetIndex.B, thing) };
@@ -147,7 +147,7 @@ namespace RepairableGear
 
                     if (recipeDef?.workSkill != null)
                     {
-                        this.pawn.skills.Learn(recipeDef.workSkill, Settings.SkillExpGainPerTick * recipeDef.workSkillLearnFactor, false);
+                        this.pawn.skills?.Learn(recipeDef.workSkill, Settings.SkillExpGainPerTick * recipeDef.workSkillLearnFactor, false);
                     }
 
                     if (this.job.bill != null)
@@ -155,7 +155,7 @@ namespace RepairableGear
                         this.job.bill.Notify_PawnDidWork(pawn);
                     }
 
-                    this.pawn.GainComfortFromCellIfPossible(true);
+                    PawnUtility.GainComfortFromCellIfPossible(this.pawn, 1, false);
 
                     float workPerTick = this.pawn.GetStatValue(StatDefOf.WorkSpeedGlobal) * worktableBuilding.GetStatValue(StatDefOf.WorkTableWorkSpeedFactor);
                     this.CurWork.WorkLeft -= workPerTick;
@@ -226,7 +226,7 @@ namespace RepairableGear
                 }
                 else if (this.job.bill.GetStoreMode() == BillStoreModeDefOf.SpecificStockpile)
                 {
-                    StoreUtility.TryFindBestBetterStoreCellForIn(repairableThing, this.pawn, this.pawn.Map, StoragePriority.Unstored, this.pawn.Faction, this.job.bill.GetSlotGroup(), out cellFound, true);
+                    StoreUtility.TryFindBestBetterStoreCellForIn(repairableThing, this.pawn, this.pawn.Map, StoragePriority.Unstored, this.pawn.Faction, ((Bill_Production)this.job.bill).GetSlotGroup(), out cellFound, true);
                 }
                 else
                 {
@@ -370,7 +370,7 @@ namespace RepairableGear
             if (this.CurWork.RollResult == RollResult.Successful)
             {
                 Utils.DebugLog("repair successful p2");
-                this.pawn.skills.Learn(recipeDef.workSkill, Settings.SuccessSkillExpBonus * recipeDef.workSkillLearnFactor, false);
+                this.pawn.skills?.Learn(recipeDef.workSkill, Settings.SuccessSkillExpBonus * recipeDef.workSkillLearnFactor, false);
                 float conditionRecovered = (repairableThing.RepairableMaxHitPoints() - repairableThing.HitPoints) / (float) repairableThing.RepairableMaxHitPoints();
                 Find.World.GetComponent<QualityDegradation>().Update(repairableThing, conditionRecovered);
                 repairableThing.HitPoints = repairableThing.RepairableMaxHitPoints();
@@ -445,7 +445,7 @@ namespace RepairableGear
             {
                 foreach (var recipe in repairableThing.def.AllRecipes)
                 {
-                    originalWorkAmount = Math.Max(originalWorkAmount, recipe.WorkAmountTotal(repairableThing));
+                    originalWorkAmount = Math.Max(originalWorkAmount, recipe.WorkAmountTotal(null));
                 }
 
                 Utils.DebugLog($"{repairableThing.ThingID} original work amount = {originalWorkAmount}, determined by recipe");
@@ -482,7 +482,12 @@ namespace RepairableGear
 
             Utils.DebugLog($"conditionMultiplier={conditionMultiplier}, adjustedWorkAmount={adjustedWorkAmount}");
 
-            float skillMultiplier = 1 - (this.pawn.skills.GetSkill(recipeDef.workSkill).Level * 3.75f / 100f);
+            float skillMultiplier = 1f;
+            if (recipeDef.workSkill != null)
+            {
+                int skillLevel = this.pawn.skills?.GetSkill(recipeDef.workSkill)?.Level ?? 10;
+                skillMultiplier = 1f - (skillLevel * 3.75f / 100f);
+            }
 
             adjustedWorkAmount *= skillMultiplier;
 
