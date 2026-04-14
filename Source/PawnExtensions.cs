@@ -158,6 +158,9 @@
 
         private static float GetRepairChanceTechLevelBasedMultiplier(Thing repairableThing, Pawn pawn)
         {
+            if (pawn.Faction == null)
+                return 1f;
+
             int techlevelDiff = (int)repairableThing.def.techLevel - (int)pawn.Faction.def.techLevel;
 
             if (techlevelDiff <= 0)

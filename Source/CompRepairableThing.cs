@@ -227,10 +227,8 @@
 
             foreach (T item in thingCounts)
             {
-                int outInt;
-                bool success = labelToCountPairs.TryGetValue(label(item), out outInt);
-                if(success) labelToCountPairs[label(item)] = outInt + count(item);
-                else labelToCountPairs[label(item)] = count(item);
+                labelToCountPairs.TryGetValue(label(item), out int existingCount);
+                labelToCountPairs[label(item)] = existingCount + count(item);
             }
 
             StringBuilder materials = new StringBuilder();
