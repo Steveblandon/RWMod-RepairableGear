@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: Repair item success chance -->
+  <RG_RepairItemSuccessChance.label>修复成功率</RG_RepairItemSuccessChance.label>
+  <!-- EN: The chance that this person will succeed in repairing weapons and apparel.\n    \nFailing means wasting time, resources, and possibly further damaging the item, but experience will be gained nonetheless.\n    \n\nNote: the final value you see here will be further weighted against the item's quality, condition, tech level compared to your colony's, and whether or not you have the research to craft the item. For a better idea of what the adjusted final value will be with this factored in, select pawn that should carry out the repair and right click the item in question. -->
+  <RG_RepairItemSuccessChance.description>该殖民者成功修复武器衣物的概率。\n \n失败就代表着时间，资源的浪费，并且物品可能进一步损坏，但是仍然可以获得经验。\n  \n\n注意：此处显示的最终成功率，是根据物品的质量，当前损坏状况，当前殖民地科技水平，以及是否已经研究了该物品的制作科技来确定的。为了更好的确认考虑到各种因素之后的成功率，请选择需要进行维修工作的殖民者，然后右键点击需要维修的物品来查看结果。</RG_RepairItemSuccessChance.description>
+  
+</LanguageData>

@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: electric repair bench -->
+  <RG_ElectricRepairTable.label>电力维修工作台</RG_ElectricRepairTable.label>
+  <!-- EN: A workbench equipped with all the tools required to repair damaged items. Can work without electricity at 40% of normal speed. -->
+  <RG_ElectricRepairTable.description>一个配备了修复损坏物品所需的所有工具的工作台。在没电时的工作速度只有正常的40%。</RG_ElectricRepairTable.description>
+  
+  <!-- EN: simple repair bench -->
+  <RG_SimpleRepairTable.label>简易维修工作台</RG_SimpleRepairTable.label>
+  <!-- EN: A workbench equipped with minimal tools required to repair damaged items. Work on this bench is slow. -->
+  <RG_SimpleRepairTable.description>一个配备了修复损坏物品所需的最少工具的工作台。工作速度很慢。</RG_SimpleRepairTable.description>
+  
+</LanguageData>

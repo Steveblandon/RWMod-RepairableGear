@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+	<!-- EN: Repair Success!\n{0}% chance -->
+  <RG_TextMote_Success>修复成功！\n{0}%几率</RG_TextMote_Success>
+  <!-- EN: Repair Partial Success!\n{0}% chance -->
+  <RG_TextMote_PartialSuccess>修复部分成功！\n{0}%几率</RG_TextMote_PartialSuccess>
+	<!-- EN: Repair Failed\n{0}% chance -->
+  <RG_TextMote_FailNoCost>修复失败！\n{0}%几率</RG_TextMote_FailNoCost>
+	<!-- EN: Repair Botched\n{0}% chance -->
+  <RG_TextMote_Fail>修复大失败！\n{0}%几率</RG_TextMote_Fail>
+
+	<!-- EN: Repair {0} -->
+  <RG_RepairItem> 修复 {0} </RG_RepairItem>
+	<!-- EN: Cannot repair {0} -->
+  <RG_RepairItem_NotPossible>无法修复{0}</RG_RepairItem_NotPossible>
+	<!-- EN: Maintenance only -->
+  <RG_RepairItem_Maintenance>仅限维护</RG_RepairItem_Maintenance>
+	<!-- EN: Irreparably damaged -->
+  <RG_RepairItem_TooDamaged>无法修复的损坏</RG_RepairItem_TooDamaged>
+	<!-- EN: not assigned to {0} -->
+  <RG_RepairItem_NotAssignedToWorkType>未分配给{0}</RG_RepairItem_NotAssignedToWorkType>
+	<!-- EN: No workbench available -->
+  <RG_RepairItem_NoRepairTableFound>没有可用的工作台</RG_RepairItem_NoRepairTableFound>
+	<!-- EN: Missing materials -->
+  <RG_RepairItem_MissingMaterials>缺少材料</RG_RepairItem_MissingMaterials>
+  <!-- EN: {0}% chance -->
+  <RG_RepairItem_Chance>{0}%几率</RG_RepairItem_Chance>
+
+  <!-- EN: Nothing to repair -->
+  <RG_RepairItem_NoItems>没有需要修复的东西</RG_RepairItem_NoItems>
+  <!-- EN: Skill level too low -->
+  <RG_RepairItem_NoSkill>技能等级太低</RG_RepairItem_NoSkill>
+
+  <!-- EN: Due to extensive repairs {0} has lost a level of quality. -->
+  <RG_Messages_QualityDegraded>由于修复过多，{0}的品质降低了。</RG_Messages_QualityDegraded>
+  
+  <!-- EN: Difficulty: Easy -->
+  <RG_DifficultyEasy>难度：简单</RG_DifficultyEasy>
+  <!-- EN: Difficulty: Normal -->
+  <RG_DifficultyNormal>难度：正常</RG_DifficultyNormal>
+  <!-- EN: Difficulty: Challenging -->
+  <RG_DifficultyChallenging>难度：挑战</RG_DifficultyChallenging>
+  <!-- EN: Disable taint removal -->
+  <RG_Settings_TaintRemoval>禁用污点移除</RG_Settings_TaintRemoval>
+  <!-- EN: Disable realistic pre-industrial/melee weapon maintenance -->
+  <RG_Settings_RealisticPreIndustrialWeaponMaintenanceDisabled>禁用真实化的工业化时代之前的以及近战武器的维护</RG_Settings_RealisticPreIndustrialWeaponMaintenanceDisabled>
+  <!-- EN: if disabled, pre-spacer melee weapons and neolithic/medieval weapons will no longer be cost-free until condition drops below 75%, becoming irreparably damaged.
+  Instead, these weapons will be treated like all other repairable items, requiring materials for repair and becoming irraparably damaged at the threshold set below. -->
+  <RG_Settings_RealisticPreIndustrialWeaponMaintenanceDisabled_Tooltip>如果禁用，近战武器和石器时代、中世纪的武器将不会在状态降到75%，受到无法修复的损坏之前无损维护。
+  相反，这些武器将会像其他可修复物品一样，需要材料才能修复，并在下面设定的阈值之下受到无法修复的损坏。</RG_Settings_RealisticPreIndustrialWeaponMaintenanceDisabled_Tooltip>
+  <!-- EN: Minimum repair chance to allow on bills ({0}%) -->
+  <RG_Settings_MinimumChance>允许的最小修复成功几率（{0}%）</RG_Settings_MinimumChance>
+  <!-- EN: Pawns won't repair an item if their success chance is below this value. 
+  This will be ignored if you force a repair job via the item right click menu option. -->
+  <RG_Settings_MinimumChance_Tooltip>如果成功率低于这个值，殖民者就不会去修理物品。
+  如果通过右键单击强制执行维修任务，则会忽略该选项。</RG_Settings_MinimumChance_Tooltip>
+  <!-- EN: Repair chance multiplier ({0}x) -->
+  <RG_Settings_RepairChance>修复成功倍率（{0}X）</RG_Settings_RepairChance>
+  <!-- EN: Item condition, tech-level, unlocked research, crafting skill level, manipulation, and sight are all taken into consideration in the default calculation of the repair success chance. 
+  If you find the final repair chance too challenging use this to boost it up. You can also go lower if you're a masochist.
+   -->
+  <RG_Settings_RepairChance_Tooltip>在修复成功率的默认计算中，物品条件，技术水平，解锁研究，手工技能，操作能力和视觉能力都会考虑在内。
+  如果你觉得最后的修复成功率挑战性太强，可以用这个来提高成功率，当然，如果你是受虐狂，也可以设的更低。</RG_Settings_RepairChance_Tooltip>
+  <!-- EN: Gain in condition for partial success ({0}%) -->
+  <RG_Settings_PartialSuccessRepairAmount>部分成功的效果（{0}%）</RG_Settings_PartialSuccessRepairAmount>
+  <!-- EN: This adds an extra challenge, specially for badly damaged items. 
+  Resources will be consumed, but the item will only gain this much condition. 
+  Set to 100% to opt-out of this feature. 
+  NOTE: even with this active, there is still a chance (albeit lower) that the pawn will fully restore an item. -->
+  <RG_Settings_PartialSuccessRepairAmount_Tooltip>该选项增加了一个对于严重损坏的物品来说尤为重要的额外挑战。
+  资源会被消耗，但是物品只能维修到这个程度。
+  设置为100%即可退出该功能。
+  注意：即便激活了该选项，殖民者仍然有几率（尽管可能性较低）完全修复物品。</RG_Settings_PartialSuccessRepairAmount_Tooltip>
+  <!-- EN: Irreparably damaged threshold ({0}%) -->
+  <RG_Settings_IrreparablyDamagedThreshold>无法修复的损坏阈值（{0}%）</RG_Settings_IrreparablyDamagedThreshold>
+  <!-- EN: Once an item's condition falls below this percentage, you will not be able to repair it. -->
+  <RG_Settings_IrreparablyDamagedThreshold_Tooltip>物品状况一旦低于该值，那么将无法修复。</RG_Settings_IrreparablyDamagedThreshold_Tooltip>
+  <!-- EN: Cost Free (maintenance only) threshold ({0}%) -->
+  <RG_Settings_CostFreeThreshold>免费（仅限维护）阈值（{0}%）</RG_Settings_CostFreeThreshold>
+  <!-- EN: If an item's condition is equal to or greater than this percentage, the repair won't cost any materials. -->
+  <RG_Settings_CostFreeThreshold_Tooltip>如果物品状况不低于该值，那么维修不会花费任何资源。</RG_Settings_CostFreeThreshold_Tooltip>
+  <!-- EN: Quality degradation [Masterwork or better] ({0}%) -->
+  <RG_Settings_QualityDegradation_Master>品质下降（杰作以上）（{0}%）</RG_Settings_QualityDegradation_Master>
+  <!-- EN: Quality degradation [Excellent or worse] ({0}%) -->
+  <RG_Settings_QualityDegradation>品质下降（优秀以下）（{0}%）</RG_Settings_QualityDegradation>
+  <!-- EN: The lower this value, the more repairs you will be able to do on an item before it loses a level of quality. Set to 0 to disable this feature. -->
+  <RG_Settings_QualityDegradation_Tooltip>该值越低，在物品品质下降之前，你可以维修的次数越多。设置为0可以禁用该功能。</RG_Settings_QualityDegradation_Tooltip>
+  
+</LanguageData>

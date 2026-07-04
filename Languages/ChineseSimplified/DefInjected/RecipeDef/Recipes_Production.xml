@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: repair any equipment -->
+  <RG_RepairItem_Any.label>修复任意装备</RG_RepairItem_Any.label>
+  <!-- EN: Repair any equipment at a repair bench. -->
+  <RG_RepairItem_Any.description>在维修工作台修复任意装备</RG_RepairItem_Any.description>
+  <!-- EN: repairing equipment -->
+  <RG_RepairItem_Any.jobString>修复装备</RG_RepairItem_Any.jobString>
+  
+  <!-- EN: repair apparel -->
+  <RG_RepairItem_Apparel.label>修补衣物</RG_RepairItem_Apparel.label>
+  <!-- EN: Repair apparel at a repair bench. -->
+  <RG_RepairItem_Apparel.description>在维修工作台修补衣物</RG_RepairItem_Apparel.description>
+  <!-- EN: repairing apparel -->
+  <RG_RepairItem_Apparel.jobString>修补衣物</RG_RepairItem_Apparel.jobString>
+  
+  <!-- EN: repair armor -->
+  <RG_RepairItem_ApparelArmor.label>修理装甲</RG_RepairItem_ApparelArmor.label>
+  <!-- EN: Repair armor at a repair bench. -->
+  <RG_RepairItem_ApparelArmor.description>在维修工作台修理装甲</RG_RepairItem_ApparelArmor.description>
+  <!-- EN: repairing armor -->
+  <RG_RepairItem_ApparelArmor.jobString>修理装甲</RG_RepairItem_ApparelArmor.jobString>
+  
+  <!-- EN: repair weapon -->
+  <RG_RepairItem_Weapon.label>修理武器</RG_RepairItem_Weapon.label>
+  <!-- EN: Repair weapon at a repair bench. -->
+  <RG_RepairItem_Weapon.description>在维修工作台修理武器</RG_RepairItem_Weapon.description>
+  <!-- EN: repairing weapon -->
+  <RG_RepairItem_Weapon.jobString>修理武器</RG_RepairItem_Weapon.jobString>
+  
+  <!-- EN: repair melee weapon -->
+  <RG_RepairItem_WeaponMelee.label>修理近战武器</RG_RepairItem_WeaponMelee.label>
+  <!-- EN: Repair melee weapon at a repair bench. -->
+  <RG_RepairItem_WeaponMelee.description>在维修工作台修理近战武器</RG_RepairItem_WeaponMelee.description>
+  <!-- EN: repairing melee weapon -->
+  <RG_RepairItem_WeaponMelee.jobString>修理近战武器</RG_RepairItem_WeaponMelee.jobString>
+  
+  <!-- EN: repair ranged weapon -->
+  <RG_RepairItem_WeaponRanged.label>修理远程武器</RG_RepairItem_WeaponRanged.label>
+  <!-- EN: Repair ranged weapon at a repair bench. -->
+  <RG_RepairItem_WeaponRanged.description>在维修工作台修理远程武器</RG_RepairItem_WeaponRanged.description>
+  <!-- EN: repairing ranged weapon -->
+  <RG_RepairItem_WeaponRanged.jobString>修理远程武器</RG_RepairItem_WeaponRanged.jobString>
+  
+  <!-- EN: repairing item -->
+  <RG_RepairItemGeneric.jobString>修复物品</RG_RepairItemGeneric.jobString>
+  
+</LanguageData>

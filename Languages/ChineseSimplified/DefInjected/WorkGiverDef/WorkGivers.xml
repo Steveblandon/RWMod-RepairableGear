@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: repair items -->
+  <RG_RepairItem.label>修复物品</RG_RepairItem.label>
+  <!-- EN: repairing item at -->
+  <RG_RepairItem.gerund>修复物品于</RG_RepairItem.gerund>
+  <!-- EN: repair item -->
+  <RG_RepairItem.verb>修复物品</RG_RepairItem.verb>
+  
+  <!-- EN: repair items -->
+  <RG_RepairItem_Tailor.label>修复物品</RG_RepairItem_Tailor.label>
+  <!-- EN: repairing item at -->
+  <RG_RepairItem_Tailor.gerund>修复物品于</RG_RepairItem_Tailor.gerund>
+  <!-- EN: repair item -->
+  <RG_RepairItem_Tailor.verb>修复物品</RG_RepairItem_Tailor.verb>
+  
+</LanguageData>
